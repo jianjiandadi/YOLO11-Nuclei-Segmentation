@@ -40,8 +40,4 @@ python examples/profile_architecture.py
 
 `configs/baseline.yaml` and `configs/mkir_ddt.yaml` are architecture references for parameter and routing checks. They contain no training settings. Optional `--counted-flops` in the profiling example reports only the operations supported by PyTorch's FLOP counter; it is not a complete arithmetic count.
 
-## Scope and license
 
-The code contains network modules, architecture YAMLs, random-tensor checks, and usage examples. It includes no datasets, splits, training runs, experimental results, or weights. See [docs/architecture.md](docs/architecture.md) for the computation and exact P3 routing, and [docs/architecture_checks.md](docs/architecture_checks.md) for the verified checks.
-
-The code derived from Ultralytics is provided with its AGPL-3.0 license. See [LICENSE](LICENSE) and [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). No model performance or experimental reproducibility claim is made by the architecture examples.
